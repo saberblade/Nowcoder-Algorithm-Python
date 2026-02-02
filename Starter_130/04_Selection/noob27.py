@@ -1,0 +1,5 @@
+a,b,c = map(int, input().split())
+max_val = max(a, b, c)
+min_val = min(a, b, c)
+print(f"The maximum number is : {max_val}")
+print(f"The minimum number is : {min_val}")
